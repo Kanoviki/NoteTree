@@ -1,4 +1,4 @@
-# The Usage Guide for the Python Version of SSR
+# A Rough Usage Guide for the Python Version of SSR *on CMD*
 1.Get depencies.  
 Such as in Debian and its branch distrubution, you can do:
 
@@ -9,7 +9,7 @@ Such as in Debian and its branch distrubution, you can do:
 
 3.Get a sample configuration file on Github  
 	sudo vim /ect/shadowsocks.json  
-		See Full *Multi-Language* Instruction on [https://github.com/shadowsocksrr/shadowsocks-rss/wiki/Python-client-setup-(Multi-language)](There).  
+		See Full *Multi-Language* Instruction on [There](https://github.com/shadowsocksrr/shadowsocks-rss/wiki/Python-client-setup-(Multi-language)).  
 		
         {
                 "server":"0.0.0.0",
