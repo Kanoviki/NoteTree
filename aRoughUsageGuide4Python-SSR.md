@@ -3,13 +3,13 @@
 Such as in Debian and its branch distrubution, you can do:
 
 	sudo apt install git python-m2crypto libsodium23
-	'''
+	
 	
 2.git clone https://github.com/shadowsocksrr/shadowsocksr.git
 
 3.Get a sample configuration file on Github
-	sudo vim /ect/shadowsocks.json 
-		See Full *Multi-Language* Instruction on [https://github.com/shadowsocksrr/shadowsocks-rss/wiki/Python-client-setup-(Multi-language)](There).
+	sudo vim /ect/shadowsocks.json<\n>
+		See Full *Multi-Language* Instruction on [https://github.com/shadowsocksrr/shadowsocks-rss/wiki/Python-client-setup-(Multi-language)](There).<\n>
 		
         {
                 "server":"0.0.0.0",
@@ -40,14 +40,14 @@ local.sh
 	#!/bin/bash
 	cd /home/"Your User Name"/shadowsocksr/shadowsocks
 	python local.py -c /etc/shadowsocks.json -d start
-	'''
+	
 
 stop.sh
 	
 	#!/bin/bash
 	cd /home/"Your User Name"/shadowsocksr/shadowsocks
 	python local.py -d stop
-	'''
+	
 	
 **Way to use**
 sudo chmod u+x local.sh stop.sh
