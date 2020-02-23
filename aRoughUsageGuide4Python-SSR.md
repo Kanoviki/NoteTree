@@ -1,4 +1,4 @@
-# A Rough Usage Guide for the Python Version of SSR *on CMD*
+# A Rough Usage Guide for the Python Version of SSR *on Linux*
 1.Get depencies.  
 Such as in Debian and its branch distrubution, you can do:
 
@@ -49,10 +49,10 @@ stop.sh
 	python local.py -d stop
 	
 	
-**Way to use**  
+**Way to use**    
 sudo chmod u+x local.sh stop.sh  
-sudo ./local.sh
-	  **For firefox and Other Softwares: change your proxy settings.**  
-	    In firefox and Other Softwares' *Internet Settings*, change yuor personal proxy strategy to *"socks5   server:127.0.0.1   port:1080"  
+sudo ./local.sh  
+	**For firefox and Other Softwares: change your proxy settings.**  
+		In firefox and Other Softwares' *Internet Settings*, change yuor personal proxy strategy to *"socks5   server:127.0.0.1   port:1080"  
 	    ~~Use socks5 DNS stategy.~~*  
 sudo ./stop.sh
