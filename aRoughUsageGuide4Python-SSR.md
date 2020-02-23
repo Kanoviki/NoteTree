@@ -1,15 +1,15 @@
 # The Usage Guide for the Python Version of SSR
-1.Get depencies.
+1.Get depencies.  
 Such as in Debian and its branch distrubution, you can do:
 
 	sudo apt install git python-m2crypto libsodium23
 	
 	
-2.git clone https://github.com/shadowsocksrr/shadowsocksr.git
+2.git clone https://github.com/shadowsocksrr/shadowsocksr.git  
 
-3.Get a sample configuration file on Github
-	sudo vim /ect/shadowsocks.json<\n>
-		See Full *Multi-Language* Instruction on [https://github.com/shadowsocksrr/shadowsocks-rss/wiki/Python-client-setup-(Multi-language)](There).<\n>
+3.Get a sample configuration file on Github  
+	sudo vim /ect/shadowsocks.json  
+		See Full *Multi-Language* Instruction on [https://github.com/shadowsocksrr/shadowsocks-rss/wiki/Python-client-setup-(Multi-language)](There).  
 		
         {
                 "server":"0.0.0.0",
@@ -30,11 +30,11 @@ Such as in Debian and its branch distrubution, you can do:
             }
                 
         
-4.Fill in values.
+4.Fill in values.  
 
-5.By Setting ~~shell~~ scripts to twitch SSR proxy status easily.
-**Samples:**
-The names of them can be personal.
+5.By Setting ~~shell~~ scripts to twitch SSR proxy status easily.  
+**Samples:**  
+The names of them can be personal.  
 local.sh
 	
 	#!/bin/bash
@@ -49,10 +49,10 @@ stop.sh
 	python local.py -d stop
 	
 	
-**Way to use**
-sudo chmod u+x local.sh stop.sh
+**Way to use**  
+sudo chmod u+x local.sh stop.sh  
 sudo ./local.sh
-	  **For firefox and Other Softwares: change your proxy settings.**
-	    In firefox and Other Softwares' *Internet Settings*, change yuor personal proxy strategy to *"socks5   server:127.0.0.1   port:1080"
-	    ~~Use socks5 DNS stategy.~~*
+	  **For firefox and Other Softwares: change your proxy settings.**  
+	    In firefox and Other Softwares' *Internet Settings*, change yuor personal proxy strategy to *"socks5   server:127.0.0.1   port:1080"  
+	    ~~Use socks5 DNS stategy.~~*  
 sudo ./stop.sh
