@@ -6,6 +6,7 @@ Such as in Debian and its branch distrubution, you can do:
 	'''
 	
 2.git clone https://github.com/shadowsocksrr/shadowsocksr.git
+
 3.Get a sample configuration file on Github
 	sudo vim /ect/shadowsocks.json 
 		See Full *Multi-Language* Instruction on [https://github.com/shadowsocksrr/shadowsocks-rss/wiki/Python-client-setup-(Multi-language)](There).
